@@ -1,0 +1,14 @@
+com\sas\qa\base\TestBase.class
+com\sas\qa\pages\BaggageallowanceTest1.class
+com\sas\qa\pages\HomePage.class
+com\sas\qa\util\TestUtil.class
+com\sas\qa\util\MyTransfamer.class
+com\ExtentReportLisner\ExtentReporterNG.class
+com\sas\qa\pages\TasksPage.class
+com\sas\qa\pages\SasLoginPage.class
+com\sas\qa\pages\SignUpPage.class
+com\sas\qa\pages\ContactsPage.class
+com\sas\qa\pages\DealsPage.class
+com\sas\qa\pages\LoginPage.class
+com\sas\qa\util\RetryAnalyzer.class
+com\sas\qa\util\WebEventListener.class

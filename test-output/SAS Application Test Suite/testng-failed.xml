@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SAS Application Test Suite]">
+  <listeners>
+    <listener class-name="com.ExtentReportLisner.ExtentReporterNG"/>
+  </listeners>
+  <test name="SAS Application Test Cases(failed)">
+    <classes>
+      <class name="com.sas.qa.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sas.qa.tests.HomePageTest -->
+    </classes>
+  </test> <!-- SAS Application Test Cases(failed) -->
+</suite> <!-- Failed suite [SAS Application Test Suite] -->

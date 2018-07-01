@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.sas.qa.tests.ContactsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sas.qa.tests.ContactsPageTest -->
+      <class name="com.sas.qa.tests.Testing">
+        <methods>
+          <include name="before"/>
+          <include name="LoginTestCase"/>
+          <include name="after"/>
+        </methods>
+      </class> <!-- com.sas.qa.tests.Testing -->
+      <class name="com.sas.qa.tests.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sas.qa.tests.HomePageTest -->
+      <class name="com.sas.qa.tests.SasLoginPageTest">
+        <methods>
+          <include name="after"/>
+          <include name="OneWayTrip"/>
+          <include name="before"/>
+          <include name="LoginTestCase"/>
+        </methods>
+      </class> <!-- com.sas.qa.tests.SasLoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

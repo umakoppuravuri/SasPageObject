@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SAS Application Test Suite">
+
+   <listeners>
+		<listener class-name="com.sas.qa.util.MyTransfamer" />
+		</listeners>
+   <listeners>
+  		<listener class-name="com.ExtentReportLisner.ExtentReporterNG" />
+	</listeners>
+	            			
+    <test name="SAS Application Test Cases">
+        <classes>
+               <class name="com.sas.qa.tests.HomePageTest"></class> 
+               <class name="com.sas.qa.tests.LoginPageTest"></class> 
+<!--                <class name="com.sas.qa.tests.ContactsPageTest"></class>  -->
+<!--              <class name="com.sas.qa.tests.SasLoginPageTest"></class> -->
+<!--              <class name="com.sas.qa.tests.Testing"></class> -->
+
+        </classes>
+                
+    </test> <!-- Test -->
+     
+  </suite> <!-- Suite -->
